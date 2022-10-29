@@ -1,12 +1,9 @@
 import React from "react";
 import { View, SafeAreaView, Text, Image } from "react-native";
+import { StatusBar } from "expo-status-bar";
 
 const Second = () => {
-    return (
-        <SafeAreaView>
-            <Text>This is the second screen</Text>
-        </SafeAreaView>
-    );
+    return <SafeAreaView></SafeAreaView>;
 };
 
 export default Second;
